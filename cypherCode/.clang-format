@@ -1,0 +1,38 @@
+BasedOnStyle: none
+Language: Cpp
+
+# INDENTATION (what you want)
+UseTab: Never
+IndentWidth: 1
+TabWidth: 4
+IndentCaseLabels: true
+
+# EMPTY LINES (what you want)
+MaxEmptyLinesToKeep: 1
+KeepEmptyLinesAtTheStartOfBlocks: false
+
+# CRITICAL: DON'T TOUCH LINE BREAKS
+ColumnLimit: 0
+
+# CRITICAL: DON'T TOUCH INCLUDES
+SortIncludes: false
+IncludeBlocks: Preserve
+
+# CRITICAL: DON'T MESS WITH BRACES
+BreakBeforeBraces: Attach
+AllowShortBlocksOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: false
+
+# DON'T REARRANGE CODE
+ReflowComments: false
+BinPackArguments: false
+BinPackParameters: false
+
+# POINTER ALIGNMENT (keep what you have)
+PointerAlignment: Right
+
+# DON'T TOUCH SPACING TOO MUCH
+SpaceBeforeParens: ControlStatements
+SpacesInParentheses: false

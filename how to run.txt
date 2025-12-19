@@ -1,0 +1,1 @@
+Launch the command-line application by double-clicking tool.exe. This will open an interactive terminal where you can provide inputs and receive outputs as prompted.
